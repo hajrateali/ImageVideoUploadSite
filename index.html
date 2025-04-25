@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="leftline">&#9776</div>
+    <h1>Shama Ali</h1>
+    <div class="rightline">&#10247</div>
+  </header>
+  
+  <div class="slide">
+    <h2>Option</h2>
+    <div class="Add">➕Add Photo</div>
+    <div class="Add2">➕Add Video</div>
+    <div onclick="imageShow()">📁 All Photos</div>
+    <div onclick="videoShow()">📁 All Videos</div>
+  </div>
+  
+  <div class="main1"></div>
+  
+  <input class="imgup" type="file" accept="image/*" multiple hidden/>
+  <input class="vidup" type="file" accept="video/*" multiple hidden/>
+  
+  
+  
+  <script src="main.js"></script>
+  <script src="uploadImages.js"></script>
+  <script src="uploadVideos.js"></script>
+  <script src="003.js"></script>
+</body>
+</html>
