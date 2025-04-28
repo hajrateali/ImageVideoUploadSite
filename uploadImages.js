@@ -1,4 +1,4 @@
-let token = "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";
+let token = "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";
 let repo = "Image";
 let owner = "Shamaali86055";
 
